@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>fill this form</title>
+
+	<style type="text/css">
+		p{
+			border-left: 10px solid red;
+		}
+	</style>
+</head>
+<body>
+
+
+	<div style="text-align: center;">
+		<h3>how to fill this form as exercises</h3>
+		<button onclick="playpause()"> play/pause</button>
+		<button onclick="makeBig()">Big</button>
+		<button onclick="makeSmall()">small</button>
+		<button onclick="makeNormal()">normal</button><br><br>
+		<video id="video" width="420">
+		<source src="sinapi.mp4" type="video/mp4"> 
+		<source src="sinapi.ogg" type="video/ogg">
+
+
+		</video>
+
+
+		<audio controls autoplay="muted">
+			
+			<source src="insp.mp3" type="audio/mpeg">
+				<source src="insp.ogg" type="audio/ogg">
+		</audio>
+		
+
+
+	</div>
+	<center><h2>fill this form person</h2>
+</center>
+<frameset>
+	<legend>
+		this is form personal details
+
+	</legend>
+	<form action="/action.php"  target="-blank" method="gets">
+		<b><p style="p">fill your name</p></b>
+		<label>first-name</label><br>
+		<input type="text" name="first-name"><br><br>
+		<label>middle-name</label><br>
+		<input type="text" name="middle-name"><br><br>
+		<label>second-name</label><br>
+		<input type="text" name="second-name"><br><br></b>
+		<label for ><b>enter your password</b></label><br><br>
+
+		<input type="password" id="pas" name="password">
+		
+			<p style="p">what is your sex for the following</p>
+<input type="radio" id="male" name="sex" ><br><br>
+<label for="male" >male</label><br>
+
+<input type="radio" id="female" name="sex" ><br><br>
+<label for="female">female</label><br>
+
+
+<b><p>select your level for your studying</p></b>
+
+<label for="primary level"> primary level</label><br>
+
+<input type="checkbox" id="level1" name="primary school"><br>
+<label for="ordinary level">ordinary level</label><br>
+<input type="checkbox" id="level2" name=" ordinary level"><br></b>
+<label for="advanced level">advanced level</label><br>
+<input type="checkbox" id="advanced level" name="advanced level"><br>
+<label for="univesity">univesity level</label><br>
+<input type="checkbox" id="levl3" name="univesity"><br><br>
+
+<label for="province"><b>choose your pronvince</b></label><br>
+<select id="province">
+	<option>kigali city</option>
+	<option>south province</option>
+	<option>noth province</option>
+	<option>west province</option>
+	<option>east province</option>
+</select><br><br>
+
+	
+
+<p><b>write your comment on that test</b></p>
+<textarea name="message" rows="15" cols="19">
+	
+	comment!!
+</textarea>
+
+<button type="button" onclick=" alert('fill form') ">submit</button>
+
+
+
+	</form>
+</frameset>
+-
+	
+
+</body>
+</html>
